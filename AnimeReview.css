@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(22, 21, 21);
+    font-family: 'Roboto', sans-serif;
+}
+header a{
+    text-decoration: none;
+    color: orangered;
+    text-transform: uppercase;
+    padding: 20px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    padding: 20px;
+}
+#title{
+    font-size: 20px;
+}
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+} 
+
+.menu span{
+    background-color: white;
+    width: 100%;
+    height: 3px;
+}
+header nav a:hover{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+    color: orangered;
+    margin-bottom: 30px;
+}
+main{
+    text-align: center;
+}
+main ul{
+    margin: 0;
+    list-style: none;
+}
+main ul{
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+}
+main img{
+    width: 100%;
+}
+main ul li {
+    padding: 20px;
+    color: white;
+    background-color: rgb(204,162,106);
+    overflow: hidden;
+    border-radius: 6px;
+    margin: 10px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    background-color: rgb(255,103,103);
+    color: white;
+    border-radius: 7px;
+    text-decoration-color: transparent;
+}
+.btn:hover{
+     background-color: red;
+     transition: 0.5s;
+}
+img{
+    width: 100px;
+    height: 300px;
+    left: 20px;
+}
+#side-drawer{
+    width: 100%;
+    height: 4px;
+    background-color:orangered;
+    position:relative;
+    margin-top: 19px;
+    list-style: none;
+    display: none;
+}
+@media only screen and (max-width:600px){
+    .menu{
+        display: flex;
+    }
+    header nav a{
+        display: none;
+    }
+    main h1{
+        font-size: 50px;
+    }
+    main ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+main h2{
+    margin: 10px;
+}
+
