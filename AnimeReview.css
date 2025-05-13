@@ -117,4 +117,9 @@ img{
 main h2{
     margin: 10px;
 }
+.like-count {
+    margin-left: 8px;
+    font-weight: bold;
+    color: white;
+}
 
